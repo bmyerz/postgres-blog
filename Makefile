@@ -12,9 +12,9 @@ setup-tpch: ${tbls}
 
 explain-q14: __setup__	
 	# explain 
-	./pcmd.sh explain_q14.sql
-	cat shared/explain_q14.log
-	echo "-- stored in shared/explain_q14.log"
+	./pcmd.sh explain_q15.sql
+	cat shared/explain_q15.log
+	echo "-- stored in shared/explain_q15.log"
 	#stats
 	#./pcmd.sh compute_stats.sql
 	#./pcmd.sh explain_q14.sql

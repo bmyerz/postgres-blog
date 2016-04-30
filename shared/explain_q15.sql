@@ -1,4 +1,4 @@
-\o /home/postgres/shared/explain_q14.log;
+\o /home/postgres/shared/explain_q15.log;
 
 create view revenue (supplier_no, total_revenue) as
     select
