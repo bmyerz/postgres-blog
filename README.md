@@ -11,7 +11,7 @@ Then,
 make
 ```
 
-# Run exaplain on query 15
+# Run explain on query 15
 ```
 make explain-q15
 ```
