@@ -2,14 +2,16 @@
 docker
 
 # Setup postgres and ingest tpch
-First copy the tpch *.tbl files to ./shared.
+First run TPC-H dbgen and copy the tpch *.tbl files to ./shared.
+If you don't have TPC-H dbgen, then use this https://github.com/gregrahn/tpch-kit/tree/master/dbgen.
+
 Then,
 
 ```
 make
 ```
 
-# Run exaplain on query 15
+# Run explain on query 15
 ```
 make explain-q15
 ```
