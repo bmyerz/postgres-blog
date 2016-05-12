@@ -13,3 +13,7 @@ make
 ```
 make explain-q15
 ```
+
+
+# Notes
+The way we use docker postgres is one instance of 'postgres' image for the server and one instance of 'postgres' image each time we make a client request.
